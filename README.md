@@ -50,11 +50,16 @@ The project relies on the **German Traffic Sign Recognition Benchmark (GTSRB)** 
 
 ---
 
-## 5. Results  
-*(Insert results and visualizations once available)*  
-- **Training and Validation Accuracy**: `[https://github.com/raghupriya099/CNNTrafficSignClassification/blob/main/Visualizations/train_accuracy.png]`  
-- **Training and Validation Loss**: `[https://github.com/raghupriya099/CNNTrafficSignClassification/blob/main/Visualizations/train_loss.png]`  
-- **Sample Prediction and Test Accuracy**: `[https://github.com/raghupriya099/CNNTrafficSignClassification/blob/main/Visualizations/test_accuracy.png]`  
+## Result Visualizations
+
+### Training and Validation Accuracy  
+![Training & Validation Accuracy](Visualizations/train_accuracy.png)
+
+### Training and Validation Loss  
+![Training & Validation Loss](Visualizations/train_loss.png)
+
+### Sample Predictions & Test Accuracy  
+![Sample Predictions & Test Accuracy](Visualizations/test_accuracy.png)
 
 ---
 
