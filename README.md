@@ -16,8 +16,7 @@ The project relies on the **German Traffic Sign Recognition Benchmark (GTSRB)** 
 - **Test images**: ~12,630 :contentReference[oaicite:0]{index=0}
 
 **Dataset Link**: `[https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign]`
-**Sample Dataset**: `[/Visualizations/dataset.png]`
-
+![Sample Dataset](Visualizations/dataset.png) 
 
 ## 4. Methodology
 
