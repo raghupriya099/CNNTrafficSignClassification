@@ -28,8 +28,8 @@ The project relies on the **German Traffic Sign Recognition Benchmark (GTSRB)** 
 ### 4.2 Model Architecture  
 - Built using Keras’s `Sequential` API.  
 - Layers include `Conv2D`, `MaxPooling2D`, `Flatten`, `Dropout`, and `Dense`.  
-- Designed to output class probabilities via a `softmax` activation.
-'[https://github.com/raghupriya099/CNNTrafficSignClassification/blob/main/Visualizations/cnn_architecture.png]'
+- Designed to output class probabilities via a `softmax` activation
+ ![Model Architecture](Visualizations/cnn_architecture.png)  
 ### 4.3 Compilation  
 - **Loss**: `sparse_categorical_crossentropy` (suitable for integer labels)  
 - **Optimizer**: Adam (adaptive learning)  
