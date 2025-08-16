@@ -15,7 +15,9 @@ The project relies on the **German Traffic Sign Recognition Benchmark (GTSRB)** 
 - **Training images**: ~39,209  
 - **Test images**: ~12,630 :contentReference[oaicite:0]{index=0}
 
-**Dataset Link (to be added)**: `[https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign]`
+**Dataset Link**: `[https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign]`
+**Sample Dataset**: `[https://github.com/raghupriya099/CNNTrafficSignClassification/blob/main/Visualizations/dataset.png]`
+
 
 ## 4. Methodology
 
@@ -28,7 +30,7 @@ The project relies on the **German Traffic Sign Recognition Benchmark (GTSRB)** 
 - Built using Keras’s `Sequential` API.  
 - Layers include `Conv2D`, `MaxPooling2D`, `Flatten`, `Dropout`, and `Dense`.  
 - Designed to output class probabilities via a `softmax` activation.
-
+'[https://github.com/raghupriya099/CNNTrafficSignClassification/blob/main/Visualizations/cnn_architecture.png]'
 ### 4.3 Compilation  
 - **Loss**: `sparse_categorical_crossentropy` (suitable for integer labels)  
 - **Optimizer**: Adam (adaptive learning)  
@@ -50,10 +52,9 @@ The project relies on the **German Traffic Sign Recognition Benchmark (GTSRB)** 
 
 ## 5. Results  
 *(Insert results and visualizations once available)*  
-- **Training Accuracy / Loss**: `[Insert link or figure]`  
-- **Validation Accuracy / Loss**: `[Insert link or figure]`  
-- **Test Accuracy**: `[Insert link or figure]`  
-- **Sample Predictions**: `[Insert link or figure]`
+- **Training and Validation Accuracy**: `[https://github.com/raghupriya099/CNNTrafficSignClassification/blob/main/Visualizations/train_accuracy.png]`  
+- **Training and Validation Loss**: `[https://github.com/raghupriya099/CNNTrafficSignClassification/blob/main/Visualizations/train_loss.png]`  
+- **Sample Prediction and Test Accuracy**: `[https://github.com/raghupriya099/CNNTrafficSignClassification/blob/main/Visualizations/test_accuracy.png]`  
 
 ---
 
