@@ -45,7 +45,7 @@ The project relies on the **German Traffic Sign Recognition Benchmark (GTSRB)** 
 
 ### 4.6 Visualization  
 - Display sample images annotated with true vs. predicted labels for qualitative inspection.  
-- (Optional) Include learning curves and confusion matrices in the full report.
+- Include training and validation accuracy and loss graphs.
 
 ---
 
@@ -78,6 +78,7 @@ Variants such as LeNet, VGG, or GoogLeNet have been applied successfully in othe
 
 ## 8. Conclusion  
 This notebook demonstrates an effective CNN pipeline for traffic sign classification—from data loading and model training to evaluation and prediction.
+We started with downloading the dataset, preprocessing it, created the model and found out the predictions using the model. During preprocessing we found that this dataset has 43 classes. Model reached an accuracy of 95%+ in just 10 epochs, we can further optimize the model using hyper parameter tuning and reach a higher accuracy
 
 ---
 
@@ -89,10 +90,3 @@ Potential next steps:
 
 ---
 
-## 10. Usage & Setup
-
-```bash
-git clone <your-repo-url>
-cd CNNTrafficSignClassification
-pip install tensorflow numpy matplotlib
-jupyter notebook TafficSignClassification.ipynb
