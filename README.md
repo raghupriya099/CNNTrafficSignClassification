@@ -21,7 +21,8 @@ The project relies on the **German Traffic Sign Recognition Benchmark (GTSRB)** 
 ## 4. Methodology
 
 ### 4.1 Data Preprocessing  
-- Load images using `tf.keras.utils.image_dataset_from_directory` or similar APIs.  
+- Load images using `tf.keras.utils.image_dataset_from_directory` or similar APIs.
+- Mean dimensions of data are taken and reshaped images to mean vales.
 - Normalize pixel values to [0, 1].  
 - Optionally apply data augmentation (e.g., flips, rotations) to enhance generalization.
 
@@ -29,7 +30,8 @@ The project relies on the **German Traffic Sign Recognition Benchmark (GTSRB)** 
 - Built using Keras’s `Sequential` API.  
 - Layers include `Conv2D`, `MaxPooling2D`, `Flatten`, `Dropout`, and `Dense`.  
 - Designed to output class probabilities via a `softmax` activation
- ![Model Architecture](Visualizations/cnn_architecture.png)  
+ ![Model Architecture](Visualizations/cnn_architecture.png)
+
 ### 4.3 Compilation  
 - **Loss**: `sparse_categorical_crossentropy` (suitable for integer labels)  
 - **Optimizer**: Adam (adaptive learning)  
